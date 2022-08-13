@@ -1,0 +1,31 @@
+{
+  "name": "financial-control-api",
+  "version": "1.0.0",
+  "description": "An API for a family control over their finances.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BragaJoao/financial-control-api.git"
+  },
+  "author": "João Guilherme Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BragaJoao/financial-control-api/issues"
+  },
+  "homepage": "https://github.com/BragaJoao/financial-control-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
